@@ -1,0 +1,8 @@
+tensorflow
+numpy
+matplotlib
+opencv-python
+fastapi
+uvicorn
+typing-extensions
+Pillow
