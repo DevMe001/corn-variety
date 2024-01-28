@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "corn-variety-data",
+    "slug": "corn-variety",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon-corn.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/corn-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2bc217"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-corn.png",
+        "backgroundColor": "#2bc217"
+      },
+      "package": "com.cornmaize123.cornvarietydata",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon-corn.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3fc729c7-7146-462d-b791-287c6e45bc39"
+      }
+    },
+    "owner": "devme",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends.",
+          "cameraPermission": "The app accesses your camera to capture an image."
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b758c506-91ec-44e2-a8d0-058e1408abbc"
+    }
+  }
+}
